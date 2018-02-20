@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400');
+
+body {
+    display: flex;
+    justify-content: center;
+    background: url('../img/stripe.png');
+}
+
+body * {
+    font-family: 'Ubuntu', sans-serif; 
+
+}
+
+#app {
+    width: 60%;
+}
+
+button {
+    height: 45px;
+    padding: 0 10px;
+    border-radius: 5%;
+    background-color: #2DB548;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.contactForm {
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(250, 248, 248, .95);
+}
+
+.contactForm > input {
+    height: 45px;
+    width: 42%;
+    border: 0;
+    border-bottom: 1px solid #000;
+    margin: 10px;
+    padding-left: 20px;
+    font-size: 18px;
+    background-color: #D1D1D1;
+}
+
+.contactForm > input[type='email'] {
+    width: 60%;
+}
+
+.contactsList {
+    padding: 0px;
+}
+
+.contactItem {
+    position: relative;
+    padding: 10px 20px 20px 160px;
+    border: 1px solid #000;
+    margin: 10px;
+    background-color: rgba(250, 248, 248, .95);
+}
+
+.contactImage {
+    position: absolute;
+    height: 60%;
+    left: 30px;
+    transform: translateY(-50%);
+    top: 50%;
+} 
